@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Camera, Mic, MicOff, Play, Stop } from 'lucide-react';
+import { Camera, Mic, MicOff, Play, Square } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Switch } from '@/components/ui/switch';
@@ -112,7 +112,7 @@ const Index = () => {
                   >
                     {isCameraActive ? (
                       <>
-                        <Stop className="w-4 h-4 mr-2" />
+                        <Square className="w-4 h-4 mr-2" />
                         Stop Camera
                       </>
                     ) : (
